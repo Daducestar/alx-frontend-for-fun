@@ -1,52 +1,41 @@
 .container {
     display: flex;
-    justify-content: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
     align-items: center;
-    height: 100vh;
 }
 
 .box {
-    flex: 0 0 calc(20% - 20px);
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
     color: white;
-    position: relative;
 }
 
 .box1 {
-    background-color: #32CD32;
-    font-size: 18px;
-    height: 100px;
-    z-index: 1;
+    background: lime;
+    flex-basis: 5%;
+    font-size: 2rem;
 }
 
 .box2 {
-    background-color: #6495ED;
-    font-size: 20px;
-    height: 120px;
-    z-index: 2;
+    background: lightskyblue;
+    flex-basis: 15%;
+    font-size: 7rem;
 }
 
 .box3 {
-    background-color: #49759C;
-    font-size: 24px;
-    height: 150px;
-    z-index: 3;
+    background: darkblue;
+    flex-basis: 30%;
+    font-size: 12rem;
 }
 
 .box4 {
-    background-color: #BA55D3;
-    font-size: 20px;
-    height: 120px;
-    z-index: 2;
+    background: darkmagenta;
+    flex-basis: 15%;
+    font-size: 7rem;
 }
 
 .box5 {
-    background-color: #FF7F50;
-    font-size: 18px;
-    height: 100px;
-    z-index: 1;
+    background: darkorange;
+    flex-basis: 5%;
+    font-size: 2rem;
 }
